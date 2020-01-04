@@ -8,14 +8,8 @@ def find_element_index(array, value_to_find)
 end  
 
 def find_max_value(array)
-  max = 0
-  array.length.times do |count|
-    if array[count] > max
-      max = array[count]
-    end
-  end
-  max
-end
+  max = array[0]
+  
 
 def find_min_value(array)
   min = 0
