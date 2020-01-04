@@ -20,4 +20,4 @@ end
 def find_min_value(array)
   min = 0
   array.length.times do |count|
-    if array[count]
+    if count == 0 
