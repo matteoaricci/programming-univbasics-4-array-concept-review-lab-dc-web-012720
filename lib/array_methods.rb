@@ -23,3 +23,10 @@ def find_min_value(array)
     if array[count] == 0
       array[count]
     else 
+      if array[count] < min
+        array[count] = min
+      end
+    end
+    min
+  end
+end
